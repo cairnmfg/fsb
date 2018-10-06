@@ -35,7 +35,7 @@ defmodule Fsb.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:github_releases, "nerves-project/#{@app}"}
+        {:github_releases, "cairnmfg/#{@app}"}
       ],
       platform: Nerves.System.BR,
       platform_config: [
