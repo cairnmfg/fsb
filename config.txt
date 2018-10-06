@@ -35,7 +35,8 @@ dtparam=audio=on
 
 # Enable the UART (/dev/ttyAMA0) on the RPi3.
 enable_uart=1
-dtoverlay=pi3-miniuart-bt
+# dtoverlay=pi3-miniuart-bt
+dtoverlay=devicetree-rpi_cm
 
 # Support for HDMI backpack display
 # cf https://learn.adafruit.com/adafruit-5-800x480-tft-hdmi-monitor-touchscreen-backpack/raspberry-pi-config
