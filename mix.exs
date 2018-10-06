@@ -1,7 +1,7 @@
-defmodule NervesSystemRpi3.MixProject do
+defmodule Fsb.MixProject do
   use Mix.Project
 
-  @app :nerves_system_rpi3
+  @app :fsb
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
@@ -63,10 +63,10 @@ defmodule NervesSystemRpi3.MixProject do
 
   defp package do
     [
-      maintainers: ["Frank Hunleth", "Justin Schneck"],
+      maintainers: ["Dylan Fareed"],
       files: package_files(),
       licenses: ["Apache 2.0"],
-      links: %{"GitHub" => "https://github.com/nerves-project/#{@app}"}
+      links: %{"GitHub" => "https://github.com/cairnmfg/#{@app}"}
     ]
   end
 

@@ -1,3 +1,9 @@
+# Field System Base
+
+Field System Base (FSB) is the base nerves system for Field hardware. It was forked from [nerves-project/nerves_system_rpi3](https://github.com/nerves-project/nerves_system_rpi3) following [the Nerves guide](https://hexdocs.pm/nerves/systems.html#customizing-your-own-nerves-system).
+
+---
+
 # Raspberry Pi 3 Model B / B+
 
 [![CircleCI](https://circleci.com/gh/nerves-project/nerves_system_rpi3.svg?style=svg)](https://circleci.com/gh/nerves-project/nerves_system_rpi3)
