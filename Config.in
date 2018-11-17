@@ -1,1 +1,2 @@
+source "$NERVES_DEFCONFIG_DIR/package/puredata/Config.in"
 source "$NERVES_DEFCONFIG_DIR/package/supercollider/Config.in"
